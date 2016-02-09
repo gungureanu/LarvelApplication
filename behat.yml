@@ -1,0 +1,5 @@
+default:
+    suites:
+        functional:
+            paths: [ %paths.base%/features/functional ]
+            contexts: [ LaravelFeatureContext ]
